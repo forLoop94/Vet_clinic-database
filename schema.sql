@@ -10,3 +10,12 @@ CREATE TABLE animals (
 );
 
 ALTER TABLE animals ADD species VARCHAR(250);
+
+-- Day-3
+
+CREATE TABLE owners (
+	id INTEGER GENERATED ALWAYS AS IDENTITY,
+	full_name VARCHAR(255),
+	age INTEGER,
+	PRIMARY KEY(id)
+);
